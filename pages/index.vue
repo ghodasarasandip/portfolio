@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="mx-auto grid min-h-[calc(100vh-65px)] max-w-6xl items-center gap-12 px-5 py-16 sm:px-8 lg:grid-cols-[1fr_0.7fr] lg:py-24">
+    <section class="mx-auto min-h-[calc(100vh-65px)] max-w-6xl px-5 py-16 sm:px-8 lg:py-24">
       <div>
         <p class="mb-5 inline-flex items-center gap-2 rounded-full border border-indigo-200 bg-indigo-50 px-3 py-1 text-xs font-semibold text-indigo-700">
           <span class="h-1.5 w-1.5 rounded-full bg-indigo-600" /> Available for select opportunities
@@ -39,17 +39,6 @@
           >LinkedIn</a>
         </div>
       </div>
-      <aside class="relative mx-auto w-full max-w-sm lg:mx-0 lg:justify-self-end">
-        <div class="absolute -inset-5 -z-10 rounded-[2rem] bg-indigo-100/70 blur-2xl" /><img src="@/assets/images/sandip_img.png" alt="Sandip Ghodasara" class="aspect-square w-full rounded-3xl object-cover grayscale transition duration-500 hover:grayscale-0"><div class="absolute -bottom-5 -left-5 max-w-[260px] rounded-xl border border-zinc-200 bg-white p-4 shadow-xl shadow-zinc-950/10">
-          <p class="text-[10px] font-bold uppercase tracking-[0.16em] text-indigo-600">
-            Currently
-          </p><p class="mt-2 font-bold tracking-tight">
-            Senior Software Engineer
-          </p><p class="mt-1 text-sm leading-5 text-zinc-600">
-            Building full-stack applications and AI-powered tools.
-          </p>
-        </div>
-      </aside>
     </section>
     <section class="section-shell pt-8">
       <SectionHeading id="experience-heading" label="Experience" title="A few places I’ve shipped meaningful work." /><ol class="divide-y divide-zinc-200 border-t border-zinc-200">
