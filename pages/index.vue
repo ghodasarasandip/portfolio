@@ -15,7 +15,7 @@
           I build reliable web products and thoughtful software systems.
         </p>
         <p class="mt-5 max-w-xl text-base leading-7 text-zinc-600">
-          Senior Software Engineer specializing in Laravel, Vue, React, and Node.js. I turn complex workflows into clear, scalable products that teams enjoy using.
+          Software Engineer specializing in Laravel, Vue, React, and Node.js. I turn complex workflows into clear, scalable products that teams enjoy using.
         </p>
         <div class="mt-7 flex flex-wrap gap-2">
           <span v-for="skill in highlights" :key="skill" class="rounded-md border border-zinc-200 bg-white px-3 py-1.5 text-xs font-medium text-zinc-600">{{ skill }}</span>
@@ -96,9 +96,9 @@
 </template>
 
 <script setup>
-useSeoMeta({ title: 'Sandip Ghodasara · Senior Software Engineer', description: 'Senior Software Engineer specializing in Laravel, Vue, React, and Node.js.' })
+useSeoMeta({ title: 'Sandip Ghodasara · Software Engineer', description: 'Software Engineer specializing in Laravel, Vue, React, and Node.js.' })
 const highlights = ['Laravel', 'Vue.js', 'React', 'Node.js', 'Product engineering']
-const experience = [{ period: '2024 — Present', role: 'Freelance Software Engineer', company: 'Independent', description: 'Partnering with teams to design, build, and improve production web applications.' }, { period: '2024', role: 'Senior Software Engineer', company: 'Intelivita', description: 'Delivered scalable web experiences and guided technical execution across product work.' }, { period: '2022 — 2024', role: 'Senior Software Engineer', company: 'Bytes Technolab', description: 'Built dependable full-stack products, integrations, and APIs for client teams.' }, { period: '2021 — 2022', role: 'Junior Web Developer', company: 'WebOccult Technologies', description: 'Started my engineering career shipping web features and backend services.' }]
+const experience = [{ period: '2024 — Present', role: 'Freelance Software Engineer', company: 'Independent', description: 'Partnering with teams to design, build, and improve production web applications.' }, { period: '2024 — 2024', role: 'Senior Software Engineer', company: 'Intelivita', description: 'Delivered scalable web experiences and guided technical execution across product work.' }, { period: '2022 — 2024', role: 'Senior Software Engineer', company: 'Bytes Technolab', description: 'Built dependable full-stack products, integrations, and APIs for client teams.' }, { period: '2021 — 2022', role: 'Junior Web Developer', company: 'WebOccult Technologies', description: 'Started my engineering career shipping web features and backend services.' }]
 const projects = [{ name: 'Trady', category: 'SaaS platform', description: 'A service-business platform for instant websites, booking, payments, and job management.', tech: ['Laravel', 'Next.js', 'Node.js', 'MySQL'] }, { name: 'Jib', category: 'AI product', description: 'A no-code SaaS creation experience powered by natural-language workflows and integrations.', tech: ['Laravel', 'Nuxt', 'MySQL'] }, { name: 'AEIS', category: 'Enterprise software', description: 'Document management for critical infrastructure teams, designed for secure collaboration.', tech: ['Laravel', 'React', 'PostgreSQL'] }, { name: 'Eatcard', category: 'Hospitality technology', description: 'An integrated POS, ordering, reservations, kiosk, and delivery platform.', tech: ['Laravel', 'Vue', 'MySQL'] }]
 const stack = [{ label: 'Frontend', items: 'Vue.js · Nuxt · React · Next.js · TypeScript · Tailwind CSS' }, { label: 'Backend', items: 'Laravel · PHP · Node.js · REST APIs · Queue workers' }, { label: 'Data', items: 'MySQL · PostgreSQL · MongoDB · Redis' }, { label: 'Tooling', items: 'Git · Docker · AWS · CI/CD · Figma' }]
 </script>

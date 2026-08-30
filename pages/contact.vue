@@ -1,11 +1,11 @@
 <template>
-  <section class="section-shell min-h-[calc(100vh-65px)] py-16 sm:py-20">
-    <div class="max-w-2xl">
+  <section class="section-shell flex min-h-[calc(100vh-65px)] items-center py-16 sm:py-20">
+    <div class="max-w-3xl">
       <p class="text-xs font-bold uppercase tracking-[0.16em] text-indigo-700">
         Contact
-      </p><h1 class="mt-4 max-w-xl text-5xl font-black leading-[0.95] tracking-[-0.07em] sm:text-6xl">
+      </p><h1 class="mt-4 text-5xl font-black leading-[0.95] tracking-[-0.07em] sm:text-6xl">
         Let’s build something that works beautifully.
-      </h1><p class="mt-7 max-w-xl text-lg leading-8 text-zinc-600">
+      </h1><p class="mt-7 text-lg leading-8 text-zinc-600">
         Have a product challenge, an ambitious idea, or a team that needs an experienced engineer? I’d be glad to hear about it.
       </p>
 

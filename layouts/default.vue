@@ -9,7 +9,7 @@
             type="button"
             class="inline-flex h-10 w-10 items-center justify-center rounded-md border border-zinc-200 bg-white text-zinc-950 transition hover:border-zinc-950 md:hidden"
             aria-label="Toggle navigation"
-            aria-expanded="false"
+            :aria-expanded="isMenuOpen"
             @click="isMenuOpen = !isMenuOpen"
           >
             <span class="sr-only">Open menu</span>
@@ -30,23 +30,29 @@
             >{{ link.label }}</NuxtLink>
           </nav>
         </div>
-
-        <nav
-          v-if="isMenuOpen"
-          class="mt-4 flex flex-col gap-2 rounded-xl border border-zinc-200 bg-white p-2 text-sm font-medium text-zinc-600 md:hidden"
-          aria-label="Mobile navigation"
-        >
-          <NuxtLink
-            v-for="link in links"
-            :key="link.to"
-            :to="link.to"
-            class="rounded-md px-3 py-2.5 transition"
-            :class="route.path === link.to ? 'bg-zinc-950 text-white' : 'hover:bg-zinc-100 hover:text-zinc-950'"
-            @click="isMenuOpen = false"
-          >{{ link.label }}</NuxtLink>
-        </nav>
       </div>
     </header>
+
+    <nav
+      v-if="isMenuOpen"
+      class="fixed inset-0 z-40 flex min-h-screen flex-col bg-stone-50 p-5 pt-24 md:hidden"
+      aria-label="Mobile navigation"
+    >
+      <div class="mx-auto flex w-full max-w-md flex-1 flex-col justify-center gap-3">
+        <NuxtLink
+          v-for="link in links"
+          :key="link.to"
+          :to="link.to"
+          class="flex items-center justify-between border-b border-zinc-200 py-4 text-3xl font-black tracking-[-0.06em] text-zinc-900 transition"
+          :class="route.path === link.to ? 'text-zinc-950' : 'text-zinc-500'"
+          @click="isMenuOpen = false"
+        >
+          <span>{{ link.label }}</span>
+          <span class="text-xl text-zinc-400">→</span>
+        </NuxtLink>
+      </div>
+    </nav>
+
     <main><slot /></main>
   </div>
 </template>

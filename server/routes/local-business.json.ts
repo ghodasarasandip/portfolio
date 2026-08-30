@@ -6,7 +6,7 @@ export default defineEventHandler(async(event) => {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     'name': 'Sandip Ghodasara - Software Development Services',
-    'description': 'Senior Software Engineer providing Laravel, Vue.js, React, and Node.js development services',
+    'description': 'Software Engineer providing Laravel, Vue.js, React, and Node.js development services',
     'url': baseUrl,
     'telephone': '+919173420297',
     'email': 'ghodasarasandip011@gmail.com',
@@ -78,7 +78,7 @@ export default defineEventHandler(async(event) => {
     'founder': {
       '@type': 'Person',
       'name': 'Sandip Ghodasara',
-      'jobTitle': 'Senior Software Engineer',
+      'jobTitle': 'Software Engineer',
     },
   }
 

@@ -18,8 +18,8 @@ export default defineNuxtConfig({
         { name: 'apple-mobile-web-app-capable', content: 'yes' },
         { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
         // SEO Meta Tags
-        { name: 'description', content: 'Sandip Ghodasara - Senior Software Engineer specializing in Laravel, Vue.js, React, and Node.js. Crafting high-performance APIs, intuitive admin panels, and AI-powered solutions.' },
-        { name: 'keywords', content: 'Sandip Ghodasara, Software Engineer, Laravel Developer, Vue.js Developer, React Developer, Node.js Developer, Full Stack Developer, API Development, Web Development, Ahmedabad, Gujarat, India, Senior Software Engineer Sandip Ghodasara' },
+        { name: 'description', content: 'Sandip Ghodasara - Software Engineer specializing in Laravel, Vue.js, React, and Node.js. Crafting high-performance APIs, intuitive admin panels, and AI-powered solutions.' },
+        { name: 'keywords', content: 'Sandip Ghodasara, Software Engineer, Laravel Developer, Vue.js Developer, React Developer, Node.js Developer, Full Stack Developer, API Development, Web Development, Ahmedabad, Gujarat, India, Software Engineer Sandip Ghodasara' },
         { name: 'author', content: 'Sandip Ghodasara' },
         { name: 'robots', content: 'index, follow' },
         { name: 'googlebot', content: 'index, follow' },
@@ -30,7 +30,7 @@ export default defineNuxtConfig({
         { name: 'ICBM', content: '23.0225, 72.5714' },
         // Open Graph Meta Tags
         { property: 'og:type', content: 'website' },
-        { property: 'og:title', content: 'Sandip Ghodasara - Senior Software Engineer' },
+        { property: 'og:title', content: 'Sandip Ghodasara - Software Engineer' },
         { property: 'og:description', content: 'Passionate Software Engineer crafting high-performance APIs, intuitive admin panels, and AI-powered solutions to drive innovation, efficiency, and scalability.' },
         { property: 'og:image', content: '/sandip_img.png' },
         { property: 'og:url', content: 'https://sandipghodasara.com' },
@@ -38,7 +38,7 @@ export default defineNuxtConfig({
         { property: 'og:locale', content: 'en_US' },
         // Twitter Card Meta Tags
         { name: 'twitter:card', content: 'summary_large_image' },
-        { name: 'twitter:title', content: 'Sandip Ghodasara - Senior Software Engineer' },
+        { name: 'twitter:title', content: 'Sandip Ghodasara - Software Engineer' },
         { name: 'twitter:description', content: 'Passionate Software Engineer crafting high-performance APIs, intuitive admin panels, and AI-powered solutions.' },
         { name: 'twitter:image', content: '/sandip_img.png' },
         { name: 'twitter:creator', content: '@sandipghodasara' },
@@ -62,7 +62,7 @@ export default defineNuxtConfig({
     public: {
       siteUrl: 'https://sandipghodasara.com',
       siteName: 'Sandip Ghodasara Portfolio',
-      siteDescription: 'Senior Software Engineer specializing in Laravel, Vue.js, React, and Node.js',
+      siteDescription: 'Software Engineer specializing in Laravel, Vue.js, React, and Node.js',
     },
   },
   compatibilityDate: '2024-11-01',
