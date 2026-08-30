@@ -48,7 +48,7 @@ export default defineNuxtConfig({
         { name: 'application-name', content: 'Sandip Ghodasara Portfolio' },
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        { rel: 'icon', type: 'image/svg+xml', href: '/sandip_favicon.svg' },
         { rel: 'canonical', href: 'https://sandipghodasara.com' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
