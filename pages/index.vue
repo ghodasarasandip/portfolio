@@ -27,7 +27,7 @@
             rel="noopener"
             class="button-secondary"
           >Resume ↗</a><a
-            href="https://github.com/sandipGit2023"
+            href="https://github.com/ghodasarasandip"
             target="_blank"
             rel="noopener"
             class="button-secondary"

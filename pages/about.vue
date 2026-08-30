@@ -16,6 +16,18 @@
       </div>
     </div>
   </section>
+
+  <section class="border-t border-zinc-200 bg-zinc-950 text-white">
+    <div class="section-shell py-20">
+      <p class="text-sm font-semibold text-indigo-300">
+        Open to interesting problems
+      </p><h2 class="mt-3 max-w-2xl text-4xl font-black tracking-[-0.06em] sm:text-5xl">
+        Have something worth building?
+      </h2><p class="mt-5 max-w-xl leading-7 text-zinc-400">
+        Let’s talk about your product, your team, and how I can help.
+      </p><NuxtLink to="/contact" class="mt-8 inline-flex rounded-md bg-white px-4 py-2.5 text-sm font-bold text-zinc-950 transition hover:bg-indigo-200">Get in touch →</NuxtLink>
+    </div>
+  </section>
 </template>
 
 <script setup>
