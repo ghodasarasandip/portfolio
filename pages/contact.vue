@@ -11,7 +11,12 @@
 
       <div class="mt-8 flex flex-wrap gap-3">
         <a href="mailto:ghodasarasandip011@gmail.com" class="button-primary">Email</a>
-        <a href="https://linkedin.com/in/ghodasara-sandip" target="_blank" rel="noopener" class="button-secondary">LinkedIn</a>
+        <a
+          href="https://linkedin.com/in/ghodasara-sandip"
+          target="_blank"
+          rel="noopener"
+          class="button-secondary"
+        >LinkedIn</a>
       </div>
     </div>
   </section>
